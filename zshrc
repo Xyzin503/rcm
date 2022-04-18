@@ -1,3 +1,4 @@
+EDITOR='/usr/bin/nvim/'
 # Set up the prompt
 
 autoload -Uz promptinit
