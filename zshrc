@@ -1,4 +1,4 @@
-EDITOR='/usr/bin/nvim/'
+export EDITOR='nvim'
 # Set up the prompt
 
 autoload -Uz promptinit
@@ -44,3 +44,7 @@ alias dotfiles='/usr/bin/git --git-dir=/home/sin/.dotfiles/ --work-tree=/home/si
 alias df=dotfiles
 alias dotf='dotfiles'
 source ~/.tmux/k/k.sh
+alias ka="k -a"
+alias ls='k'
+alias l='k'
+alias la='k -a'

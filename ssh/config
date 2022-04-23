@@ -21,6 +21,10 @@ Host linode
 	Hostname 173.255.221.206
 	User root
 
+Host ember
+	Hostname 192.168.0.32
+	User kro
+
 Host server
 	IdentityFile ~/.ssh/id_rsa
 	Hostname 31.220.59.186
